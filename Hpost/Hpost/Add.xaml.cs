@@ -23,14 +23,5 @@ namespace Hpost
         {
             InitializeComponent();
         }
-
-        
-
-        private void Ajouter(object sender, RoutedEventArgs e)
-        {
-            Colis NumCommande = new Colis(nom_proprio.Text, )
-        }
-
-  
     }
 }

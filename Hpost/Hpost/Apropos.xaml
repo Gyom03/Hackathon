@@ -9,13 +9,14 @@
     <Grid Height="300" VerticalAlignment="Top">
         <Image HorizontalAlignment="Left" Height="183" Margin="416,63,0,0" VerticalAlignment="Top" Width="319" Source="/img/mycolis.jpg"/>
         <TextBlock HorizontalAlignment="Left" Height="35" Margin="23,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="20"><Run Language="fr-be" Text="T"/><Run Text="ype de livraison :"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Height="28" Margin="23,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149" FontSize="20"><Run Text="Poid"/><Run Language="fr-be" Text="s"/><Run Text=" :"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="28" Margin="23,93,0,0" TextWrapping="Wrap" Text="Poid :" VerticalAlignment="Top" Width="149" FontSize="20"/>
         <TextBlock HorizontalAlignment="Left" Height="37" Margin="23,137,0,0" TextWrapping="Wrap" Text="Prix :" VerticalAlignment="Top" Width="137" FontSize="20"/>
         <Label Content="Label" HorizontalAlignment="Left" Height="33" Margin="228,43,0,0" VerticalAlignment="Top" Width="148" FontSize="20"/>
         <Label Content="Label" HorizontalAlignment="Left" Height="33" Margin="228,88,0,0" VerticalAlignment="Top" Width="149" FontSize="20"/>
         <Label Content="Label" HorizontalAlignment="Left" Height="33" Margin="227,132,0,0" VerticalAlignment="Top" Width="149" FontSize="20"/>
         <TextBlock HorizontalAlignment="Left" Height="36" Margin="23,179,0,0" TextWrapping="Wrap" Text="Spécifité :" VerticalAlignment="Top" Width="98" FontSize="20" RenderTransformOrigin="0.594,-0.514"/>
-        <TextBlock x:Name="Specification1" HorizontalAlignment="Left" Height="22" Margin="23,224,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="420"/>
+        <ComboBox x:Name="ComboBox" HorizontalAlignment="Left" Height="34" Margin="227,181,0,0" VerticalAlignment="Top" Width="149" SelectionChanged="ComboBox_SelectionChanged"/>
+        <TextBlock x:Name="Specification" HorizontalAlignment="Left" Height="55" Margin="23,224,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="420"/>
 
     </Grid>
 </Window>
