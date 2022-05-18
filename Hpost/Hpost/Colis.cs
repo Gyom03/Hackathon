@@ -8,6 +8,7 @@ namespace Hpost
 {
     internal class Colis
     {
+        // attribut de la classe
         private int NumCommande;
         private int Poids;
         private int Prix;
@@ -21,6 +22,7 @@ namespace Hpost
         private bool Special;
         private string State;
 
+        //get et set
         public int GetNumCommande()
         {
             return GetNumCommande();
@@ -140,5 +142,24 @@ namespace Hpost
         {
             SetState(value);
         }
+
+        //constructeur
+        public Colis(int numCommande, int poids, int prix, int volume, string nomEnvoyeur, int emplacementX, int emplacementY, bool livraisonExpress, string deliveryAdress, object image, bool special, string state)
+        {
+            SetDeliveryAdress(deliveryAdress);
+            SetEmplacementX(emplacementX);
+            SetEmplacementY(emplacementY);
+            SetLivraisonExpress(livraisonExpress);
+            SetImage(image);
+            SetNomEnvoyeur(nomEnvoyeur);
+            SetNumCommande(numCommande);
+            SetPoids(poids);
+            SetSpecial(special);
+            SetState(state);
+            SetVolume(volume);
+            SetPrix(prix);
+        }
+
+
     }
 }

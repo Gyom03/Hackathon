@@ -8,11 +8,15 @@ namespace Hpost
 {
     internal class Étagère
     {
+        // attribut de la classe
         private int PoidsMax;
         private int VolumeMax;
         private int Colonne;
         private int Ligne;
+        private int PoidsTot;
+        private int VolumeTot;
 
+        //get et set
         public int GetLigne()
         {
             return GetLigne();
@@ -51,6 +55,47 @@ namespace Hpost
         public void SetPoidsMax(int value)
         {
             SetPoidsMax(value);
+        }
+        public int GetPoidsTot()
+        {
+            return GetPoidsTot();
+        }
+
+        public void SetPoidsTot(int value)
+        {
+            SetPoidsTot(value);
+        }
+        public int GetVolumeTot()
+        {
+            return GetVolumeTot();
+        }
+
+        public void SetVolumeTot(int value)
+        {
+            SetVolumeTot(value);
+        }
+
+        //constructeur
+        public Étagère(int poidsMax, int volumeMax, int colonne, int ligne, int poidstot,int volumetot)
+        {
+            SetColonne(colonne);
+            SetLigne(ligne);
+            SetPoidsMax(poidsMax);
+            SetVolumeMax(volumeMax);
+            SetPoidsTot(poidstot);
+            SetVolumeTot(volumetot);
+        }
+
+        public void Remplissage(int poidstot, int poidsmax,int volumetot, int volumemax)
+        {
+            if (poidstot > poidsmax || volumetot > volumemax)
+            {
+                //Dire que le stockage est complet donc il faut changer d'étagère ou refuser l'envoi du colis
+            }
+            else
+            {
+                //ajouter le poids et le volume du nouveau colis
+            }
         }
     }
 }
