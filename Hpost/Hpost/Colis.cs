@@ -144,18 +144,14 @@ namespace Hpost
         }
 
         //constructeur
-        public Colis(int numCommande, int poids, int prix, int volume, string nomEnvoyeur, int emplacementX, int emplacementY, bool livraisonExpress, string deliveryAdress, object image, bool special, string state)
+        public Colis(int poids, int prix, int volume, string nomEnvoyeur, bool livraisonExpress, string deliveryAdress, object image, bool special)
         {
             SetDeliveryAdress(deliveryAdress);
-            SetEmplacementX(emplacementX);
-            SetEmplacementY(emplacementY);
             SetLivraisonExpress(livraisonExpress);
             SetImage(image);
             SetNomEnvoyeur(nomEnvoyeur);
-            SetNumCommande(numCommande);
             SetPoids(poids);
             SetSpecial(special);
-            SetState(state);
             SetVolume(volume);
             SetPrix(prix);
         }
