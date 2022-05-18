@@ -36,8 +36,19 @@ namespace Hpost
             foreach (var value in ASCIIvalues)
             {
                 string blc = value.ToString();
-                MessageBox.Show(blc);
+                int enInt = Int32.Parse(blc);
+                enInt = enInt + 8;
+                byte[] numberBytes = BitConverter.GetBytes(enInt);
+                mdpchiffre = Encoding.UTF8.GetString(numberBytes);
+                MessageBox.Show(mdpchiffre);
+
             }
+
+        }
+
+        private void Bouton_création_de_compte_Click(object sender, RoutedEventArgs e)
+        {
+            Chiffrage();
         }
     }
 }

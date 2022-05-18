@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="550" Width="800">
     <Grid>
-        <DataGrid HorizontalAlignment="Center" Height="364" VerticalAlignment="Top" Width="732" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="DataGrid_SelectionChanged" Margin="0,34,0,0">
+        <DataGrid HorizontalAlignment="Center" Height="364" VerticalAlignment="Top" Width="732" d:ItemsSource="{d:SampleData ItemCount=5}"  Margin="0,34,0,0">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="N° de commande" Binding="{Binding FirstName}" Width="70"/>
                 <DataGridTextColumn Header="Nom proprio" Binding="{Binding PhotoLocation}" Width="100"/>
