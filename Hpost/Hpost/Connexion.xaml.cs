@@ -63,5 +63,10 @@ namespace Hpost
         {
             Writetotext();
         }
+
+        private void User_name_box_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
