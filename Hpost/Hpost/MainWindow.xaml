@@ -5,22 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hpost"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="550" Width="800">
     <Grid>
-        <DataGrid HorizontalAlignment="Center" Height="346" VerticalAlignment="Center" Width="732" d:ItemsSource="{d:SampleData ItemCount=5}">
+        <DataGrid HorizontalAlignment="Center" Height="364" VerticalAlignment="Top" Width="732" d:ItemsSource="{d:SampleData ItemCount=5}"  Margin="0,34,0,0">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="N° du colis" Binding="{Binding FirstName}" Width="70"/>
-                <DataGridTextColumn Header="Poids" Binding="{Binding LastName}" Width="70"/>
-                <DataGridTextColumn Header="Volume" Binding="{Binding PhotoLocation}" Width="70"/>
-                <DataGridTextColumn Header="Express" Binding="{Binding PhotoLocation}" Width="70"/>
-                <DataGridTextColumn Header="Spécial" Binding="{Binding PhotoLocation}" Width="70"/>
-                <DataGridTextColumn Header="Nom envoyeur" Binding="{Binding PhotoLocation}" Width="100"/>
-                <DataGridTextColumn Header="Prix du transport" Binding="{Binding PhotoLocation}" Width="100"/>
-
+                <DataGridTextColumn Header="N° de commande" Binding="{Binding FirstName}" Width="70"/>
+                <DataGridTextColumn Header="Nom proprio" Binding="{Binding PhotoLocation}" Width="100"/>
+                <DataGridTextColumn Header="Adresse destinataire" Binding="{Binding PhotoLocation}" Width="100"/>
+                <DataGridTextColumn Header="Nom du destinataire" Binding="{Binding PhotoLocation}" Width="70"/>
                 <DataGridTextColumn Header="Emplacement x y" Binding="{Binding PhotoLocation}" Width="300"/>
-
-
+                <DataGridTextColumn Header="Volume" Binding="{Binding PhotoLocation}" Width="300"/>
+                <DataGridTextColumn Header="Etat colis" Binding="{Binding PhotoLocation}" Width="300"/>
             </DataGrid.Columns>
         </DataGrid>
+        <Button x:Name="bAdd" Content="Ajouter un colis" HorizontalAlignment="Left" Height="38" Margin="34,452,0,0" VerticalAlignment="Top" Width="125" Click="bAdd_Click"/>
     </Grid>
 </Window>

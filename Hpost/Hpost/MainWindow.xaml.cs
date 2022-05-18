@@ -1,4 +1,4 @@
-﻿using System;
+﻿xusing System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,13 +23,15 @@ namespace Hpost
         public MainWindow()
         {
             InitializeComponent();
-            Apropos apropos = new Apropos();
-            apropos.Show();
+
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+
+        private void bAdd_Click(object sender, RoutedEventArgs e)
         {
 
         }
+
+        
     }
 }
