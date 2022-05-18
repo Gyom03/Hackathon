@@ -23,15 +23,13 @@ namespace Hpost
         public MainWindow()
         {
             InitializeComponent();
-
+            Apropos apropos = new Apropos();
+            apropos.Show();
         }
 
-
-        private void bAdd_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
 
         }
-
-        
     }
 }
