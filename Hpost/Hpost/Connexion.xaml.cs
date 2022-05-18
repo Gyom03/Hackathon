@@ -23,5 +23,10 @@ namespace Hpost
         {
             InitializeComponent();
         }
+
+        private void Bouton_connexion_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
