@@ -11,8 +11,6 @@ namespace Hpost
         // attribut de la classe
         private int NombreTêtes;
         private string TypeAnimal;
-        private string TypeFood;
-        private int PoidsFood;
 
         //get et set
         public int GetNombreTêtes()
@@ -35,24 +33,10 @@ namespace Hpost
             TypeAnimal = value;
         }
 
-        public string GetTypeFood()
+        public Animal(int nombreTete, string typeAnimal)
         {
-            return TypeFood;
-        }
-
-        public void SetTypeFood(string value)
-        {
-            TypeFood = value;
-        }
-
-        public int GetPoidsFood()
-        {
-            return PoidsFood;
-        }
-
-        public void SetPoidsFood(int value)
-        {
-            PoidsFood = value;
+            SetNombreTêtes(nombreTete);
+            SetTypeAnimal(typeAnimal);
         }
     }
 }

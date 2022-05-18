@@ -39,5 +39,10 @@ namespace Hpost
                 MessageBox.Show(blc);
             }
         }
+
+        private void User_name_box_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

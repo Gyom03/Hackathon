@@ -8,7 +8,7 @@
         Title="Connexion" Height="500" Width="400">
     <Grid>
         <TextBlock x:Name="User_name_block" HorizontalAlignment="Left" Height="40" Margin="22,69,0,0" TextWrapping="Wrap" Text="Nom D'utilisateur :" VerticalAlignment="Top" Width="225" TextAlignment="Center" FontSize="28" FontFamily="Calibri"/>
-        <TextBox x:Name="User_name_box" HorizontalAlignment="Left" Height="44" Margin="22,114,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="340" TextAlignment="Center" FontSize="18"/>
+        <TextBox x:Name="User_name_box" HorizontalAlignment="Left" Height="44" Margin="22,114,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="340" TextAlignment="Center" FontSize="18" TextChanged="User_name_box_TextChanged"/>
         <TextBlock x:Name="Code_block" HorizontalAlignment="Left" Height="39" Margin="22,163,0,0" TextWrapping="Wrap" Text="Password :" VerticalAlignment="Top" Width="250" TextAlignment="Left" FontSize="28"/>
         <TextBox x:Name="Code_box" HorizontalAlignment="Left" Height="50" Margin="22,202,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="340" TextAlignment="Center" FontSize="18"/>
         <Button x:Name="Bouton_connexion" Content="Connexion" HorizontalAlignment="Left" Height="49" Margin="97,297,0,0" VerticalAlignment="Top" Width="199" FontFamily="Calibri" FontSize="28" Background="#FFE4E0E0" Click="Bouton_connexion_Click"/>

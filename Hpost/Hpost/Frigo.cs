@@ -10,7 +10,7 @@ namespace Hpost
     {
         // attribut de la classe
         private int Temp;
-        private int TimeConserv;
+        private int TimeConserv; //hors frigo
 
         //get et set
         public int GetTemp()
