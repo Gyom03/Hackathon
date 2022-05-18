@@ -1,0 +1,29 @@
+﻿<Window x:Class="Hpost.Add"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hpost"
+        mc:Ignorable="d"
+        Title="Add" Height="310" Width="765">
+    <Grid Height="284" VerticalAlignment="Top" Margin="0,0,40,0">
+        <TextBlock HorizontalAlignment="Left" Height="34" Margin="10,10,0,0" TextWrapping="Wrap" Text="Nom propriétaire :" VerticalAlignment="Top" Width="179" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="34" Margin="10,49,0,0" TextWrapping="Wrap" Text="Adresse du destinataire :" VerticalAlignment="Top" Width="230" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="34" Margin="10,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" FontSize="20"><Run Language="fr-be" Text="Volume :"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="33" Margin="10,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" FontSize="20"><Run Language="fr-be" Text="Prix :"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="34" Margin="10,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" FontSize="20"><Run Text="P"/><Run Language="fr-be" Text="oids :"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="33" Margin="10,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" FontSize="20"><Run Language="fr-be" Text="Type de livraison"/><Run Text=" :"/></TextBlock>
+        <ComboBox x:Name="ComboBox" HorizontalAlignment="Left" Height="29" Margin="189,239,0,0" VerticalAlignment="Top" Width="189" SelectionChanged="ComboBox_SelectionChanged"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="10,236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" FontSize="20"><Run Text="Spécification"/><Run Language="fr-be" Text=" :"/><LineBreak/><Run/><Run Text=" :"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="34" Margin="416,5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="317" FontSize="20"><Run Language="fr-be" Text="Photo du colis :"/></TextBlock>
+        <Image HorizontalAlignment="Left" Height="174" Margin="416,39,0,0" VerticalAlignment="Top" Width="304" Source="/img/mycolis.jpg"/>
+        <Button Content="Ajouter" HorizontalAlignment="Left" Height="42" Margin="510,218,0,0" VerticalAlignment="Top" Width="185" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="211,5,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="168"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="240,49,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="139"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="100,88,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="279"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="100,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="279"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="100,165,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="278"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="189,203,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="189"/>
+
+    </Grid>
+</Window>

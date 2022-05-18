@@ -7,4 +7,15 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="img\colis.jpg" />
+    <None Remove="img\mycolis.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\mycolis.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
 </Project>
