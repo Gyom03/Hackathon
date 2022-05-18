@@ -7,7 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="Couille" Content="Couille" HorizontalAlignment="Left" Height="137" Margin="128,0,0,0" VerticalAlignment="Center" Width="526" Click="Button_Click"/>
+        <DataGrid HorizontalAlignment="Center" Height="346" VerticalAlignment="Center" Width="732" d:ItemsSource="{d:SampleData ItemCount=5}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="N° du colis" Binding="{Binding FirstName}" Width="70"/>
+                <DataGridTextColumn Header="Poids" Binding="{Binding LastName}" Width="70"/>
+                <DataGridTextColumn Header="Volume" Binding="{Binding PhotoLocation}" Width="70"/>
+                <DataGridTextColumn Header="Express" Binding="{Binding PhotoLocation}" Width="70"/>
+                <DataGridTextColumn Header="Spécial" Binding="{Binding PhotoLocation}" Width="70"/>
+                <DataGridTextColumn Header="Nom envoyeur" Binding="{Binding PhotoLocation}" Width="100"/>
+                <DataGridTextColumn Header="Prix du transport" Binding="{Binding PhotoLocation}" Width="100"/>
 
+                <DataGridTextColumn Header="Emplacement x y" Binding="{Binding PhotoLocation}" Width="300"/>
+
+
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>
