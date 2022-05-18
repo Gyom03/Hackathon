@@ -17,13 +17,13 @@
         <TextBlock HorizontalAlignment="Left" Height="32" Margin="10,236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" FontSize="20"><Run Text="Spécification"/><Run Language="fr-be" Text=" :"/><LineBreak/><Run/><Run Text=" :"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="34" Margin="416,5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="317" FontSize="20"><Run Language="fr-be" Text="Photo du colis :"/></TextBlock>
         <Image HorizontalAlignment="Left" Height="174" Margin="416,39,0,0" VerticalAlignment="Top" Width="304" Source="/img/mycolis.jpg"/>
-        <Button Content="Ajouter" HorizontalAlignment="Left" Height="42" Margin="510,218,0,0" VerticalAlignment="Top" Width="185" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Height="35" Margin="211,5,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="168"/>
+        <Button Content="Ajouter" HorizontalAlignment="Left" Height="42" Margin="510,218,0,0" VerticalAlignment="Top" Width="185" FontSize="20" Click="Ajouter"/>
+        <TextBox x:Name="nom_proprio" HorizontalAlignment="Left" Height="35" Margin="211,9,0,0" TextWrapping="Wrap" Text="Nom" VerticalAlignment="Top" Width="168" FontFamily="Calibri" TextChanged="nom_proprio_TextChanged"/>
         <TextBox HorizontalAlignment="Left" Height="35" Margin="240,49,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="139"/>
         <TextBox HorizontalAlignment="Left" Height="35" Margin="100,88,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="279"/>
-        <TextBox HorizontalAlignment="Left" Height="35" Margin="100,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="279"/>
         <TextBox HorizontalAlignment="Left" Height="35" Margin="100,165,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="278"/>
         <TextBox HorizontalAlignment="Left" Height="35" Margin="189,203,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="189"/>
+        <ComboBox x:Name="Prix" HorizontalAlignment="Left" Height="35" Margin="100,127,0,0" VerticalAlignment="Top" Width="279"/>
 
     </Grid>
 </Window>

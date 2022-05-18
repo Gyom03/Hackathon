@@ -14,12 +14,11 @@
         <Label Content="Numéro de commande :" HorizontalAlignment="Left" Height="57" Margin="34,10,0,0" VerticalAlignment="Top" Width="316" FontSize="28"/>
         <TextBlock HorizontalAlignment="Left" Height="43" Margin="343,19,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="255" FontSize="28" FontFamily="Calibri" TextAlignment="Center"/>
         <Image HorizontalAlignment="Left" Height="209" Margin="41,67,0,0" VerticalAlignment="Top" Width="302" Source="/img/mycolis.jpg" Grid.RowSpan="2"/>
-        <TextBlock HorizontalAlignment="Left" Height="25" Margin="362,65,0,0" TextWrapping="Wrap" Text="Nom du propriétaire :" VerticalAlignment="Top" Width="219" FontSize="20"/>
-        <Label Content="Label" HorizontalAlignment="Left" Height="40" Margin="362,95,0,0" VerticalAlignment="Top" Width="219" FontSize="20" Grid.RowSpan="2"/>
-        <TextBlock HorizontalAlignment="Left" Height="25" Margin="362,26,0,0" TextWrapping="Wrap" Text="Adresse du destinataire :" VerticalAlignment="Top" Width="219" FontSize="20" Grid.Row="1"/>
-        <Label Content="Label" HorizontalAlignment="Left" Height="32" Margin="362,58,0,0" VerticalAlignment="Top" Width="219" FontSize="20" Grid.Row="1"/>
-        <TextBlock HorizontalAlignment="Left" Height="29" Margin="362,95,0,0" TextWrapping="Wrap" Text="Nom du destinataire :" VerticalAlignment="Top" Width="219" FontSize="20" Grid.Row="1"/>
-        <Label Content="Label" HorizontalAlignment="Left" Height="38" Margin="362,129,0,0" VerticalAlignment="Top" Width="209" FontSize="20" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Height="25" Margin="361,18,0,0" TextWrapping="Wrap" Text="Nom du propriétaire :" VerticalAlignment="Top" Width="219" FontSize="20" Grid.Row="1"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="40" Margin="362,50,0,0" VerticalAlignment="Top" Width="219" FontSize="20" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Height="25" Margin="362,95,0,0" TextWrapping="Wrap" Text="Adresse du destinataire :" VerticalAlignment="Top" Width="219" FontSize="20" Grid.Row="1"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="32" Margin="362,129,0,0" VerticalAlignment="Top" Width="219" FontSize="20" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Height="29" Margin="362,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" FontSize="20" Grid.Row="1"/>
         <TextBlock HorizontalAlignment="Left" Height="28" Margin="41,179,0,0" TextWrapping="Wrap" Text="Emplacement :" VerticalAlignment="Top" Width="139" FontSize="20" Grid.Row="1"/>
         <TextBlock HorizontalAlignment="Left" Height="29" Margin="41,212,0,0" TextWrapping="Wrap" Text="Volume du colis :" VerticalAlignment="Top" Width="151" FontSize="20" Grid.Row="1"/>
         <Button Content="Plus d'information" HorizontalAlignment="Left" Height="38" Margin="92,259,0,0" VerticalAlignment="Top" Width="200" FontSize="20" Grid.Row="1" Click="Button_Click"/>
