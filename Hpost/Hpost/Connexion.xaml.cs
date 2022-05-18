@@ -28,5 +28,15 @@ namespace Hpost
         {
 
         }
+        public string Chiffrage(string mdpchiffre)
+        {
+            byte[] ASCIIvalues = Encoding.ASCII.GetBytes(Code_box.Text);
+            mdpchiffre = "";
+            foreach (var value in ASCIIvalues)
+            {
+                mdpchiffre += value.ToString(); 
+            }
+                return mdpchiffre ;
+        }
     }
 }
