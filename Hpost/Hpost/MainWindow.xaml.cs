@@ -23,6 +23,8 @@ namespace Hpost
         public MainWindow()
         {
             InitializeComponent();
+            Connexion connexion = new Connexion();
+            connexion.Show();
         }
 
 
